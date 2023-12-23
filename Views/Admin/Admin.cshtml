@@ -1,0 +1,32 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Paneli</title>
+    <link rel="stylesheet" href="~/css/_adminPaneli.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="tbtx">
+            <form class="frm-txt">
+                <img src="~/img/admin.jpg" alt="">
+                <h3>Admin Login</h3>
+                <input type="text"   id="username" name="username" placeholder="Username" required>
+                <input type="password"  id="password" placeholder="Password" name="password" required>              
+            </form>
+                <a href="#" id="uyari" onclick="return Uyari()">Giriş</a>
+             <div class="checkbox">
+                        <h2>Parolayı Göster</h2>
+                        <input type="checkbox" onclick="showPassword()">
+             </div>
+        </div>
+    </div>
+    <script src="~/js/adminPaneli.js"></script>
+</body>
+</html>

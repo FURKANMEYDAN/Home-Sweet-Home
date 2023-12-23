@@ -1,0 +1,79 @@
+.container{
+    margin: auto;
+    width:50%;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.frm-txt{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.frm-txt img{
+    display: block;
+    width: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: solid 4px #333;
+}
+.frm-txt h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.frm-txt h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.frm-txt input{
+    cursor: text !important;
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+#uyari{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    width: 25%;
+    font-size: 16px;
+    color:  #fff;
+    border: 5px solid #333;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #333;
+    
+}
+
+.checkbox input{
+    cursor: pointer!important;
+    margin-top: -32px;
+    margin-left: 220px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 20px solid #333;
+    border-radius: 5px;
+}
+.checkbox h2{
+    color: #333;
+    margin-top: -70px;
+    margin-left: 90px;
+    margin-right: -100px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}

@@ -1,0 +1,29 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.baslik h2{
+  margin-top: 160px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.shop-rooms img{
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border-radius: 10px; 
+}
+
+

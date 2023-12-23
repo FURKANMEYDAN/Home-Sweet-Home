@@ -1,0 +1,137 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #AFAD9F;
+  position: absolute;
+  width: 100%;
+
+}
+
+.katalog h3 {
+  margin-bottom: 50px;
+}
+
+#wrapper {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+#wrapper li {
+  margin-top: 20px;
+}
+
+.footer label,
+.footer p {
+  color: #fff;
+}
+
+.footer-left {
+  text-align: center;
+  flex: 1;
+}
+
+.katalog {
+  margin-top: 10px;
+  list-style: none;
+}
+
+#Magaza {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+#Katalog {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+#Duzenle {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-center {
+  text-align: center;
+  flex: 1;
+}
+
+
+.footer-right {
+  text-align: center;
+  flex: 1;
+}
+
+.form-grp {
+  margin-top: 10px;
+
+}
+
+.form-grp h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-grp label {
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+#email {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#message {
+  width: 100%;
+  height: 100px;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+
+}
+
+
+
+.contact h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+.contact  i{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 140px;
+}
+
+
+#instagram{
+  display: flex;
+  margin-top: -50px;
+}
+#github{
+  margin-top: -100px;
+}
+#linkedin{
+margin-top: -100px;
+}

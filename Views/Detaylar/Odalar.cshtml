@@ -1,0 +1,12 @@
+@model List<Odalar>
+    <link rel="stylesheet" href="~/css/_ShopRooms.css">
+    <div class="baslik">
+
+    <h2>Odanıza Göre Seçimler</h2>
+    </div>
+<div class="shop-rooms">
+    @foreach (var mobilya in Model)
+    {
+        <img src=@mobilya.Image  alt="resim">
+    }
+</div>

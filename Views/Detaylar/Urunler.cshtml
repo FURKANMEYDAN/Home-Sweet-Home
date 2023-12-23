@@ -1,0 +1,8 @@
+@model List<Eşyalar>
+
+@await Html.PartialAsync("_Navbar")
+@foreach (var eşya in Model)
+{
+    <img src=@eşya.Image id=@eşya.Id alt="resim">
+}
+

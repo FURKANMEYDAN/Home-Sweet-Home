@@ -1,0 +1,12 @@
+@{
+    Layout=null;
+}
+@model List<Eşyalar>
+<div class="row">
+          @foreach(var yatak in Model){
+            <div class="col-md-4">
+                <img src=@yatak.Image alt="resim">
+            </div>
+        }
+        
+</div>

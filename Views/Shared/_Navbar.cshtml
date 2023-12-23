@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="~/css/_Navbar.css">
+<script>
+    document.getElementById('cartButton').addEventListener('click', function () {
+        toggleCart();
+    });
+</script>
+@if (User.Identity.IsAuthenticated)
+{
+    <nav class="nav-default">
+        <input type="image" src="~/img/HomeSweet.png" onclick="geriDon()" id="logo" alt="logo">
+        <div class="nav-container">
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">AnaSayfa</a></li>
+                <li><a asp-controller="Detaylar" asp-action="Odalar">Odalar</a></li>
+                <li><a asp-controller="Home">Hizmetlerimiz</a></li>
+                <li><a asp-controller="Detaylar" asp-action="Eşyalar">Ürünler</a></li>
+            </ul>
+
+        </div>
+        <div class="btn-group">
+            <a type="button" class="btn dropdown" data-bs-toggle="dropdown" aria-expanded="false"><i
+                    class="fa fa-user fa-2x" style="color: white;" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout</a>
+                </li>
+             
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+               
+            </ul>
+        </div>
+        <div class="btn-group-2">
+            <a onclick="toggleCart()" class="cart-icon"><i class="fa fa-shopping-cart fa-2x " style="color: white;"
+                    aria-hidden="true"></i></a>
+        </div>
+    </nav>
+}
+else
+{
+    <div class="btn-group">
+        <a type="button" class="btn dropdown" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-user fa-2x"
+                style="color: #555;" aria-hidden="true"></i></a>
+        <ul class="dropdown-menu">
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Create">Register</a>
+            </li>
+
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+  
+        </ul>
+    </div>
+
+}
