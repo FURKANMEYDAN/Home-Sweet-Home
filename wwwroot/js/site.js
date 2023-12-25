@@ -28,7 +28,10 @@
    
     toggleCart();
   }
-  
+  function clearCart() {
+    var cartItems = document.getElementById('cartItems');
+    cartItems.innerHTML = ''; 
+}
   
   document.getElementById('fileInput').addEventListener('change', function(event) {
     var file = event.target.files[0];
@@ -117,19 +120,6 @@ document.getElementById('searchInput').addEventListener('input', function() {
     });
   });
 
-  $(document).ready(function(){
-    $('#myCarousel').carousel({
-      interval: 2000, 
-      wrap: true
-    });
-  });
-  $(document).ready(function() {
-    $('#carouselExampleIndicators').on('slide.bs.carousel', function() {
-      $('.mask-layer').css('opacity', '1');
-    });
-  
-    $('#carouselExampleIndicators').on('slid.bs.carousel', function() {
-      $('.mask-layer').css('opacity', '0');
-    });
-  });
-   
+ 
+
+

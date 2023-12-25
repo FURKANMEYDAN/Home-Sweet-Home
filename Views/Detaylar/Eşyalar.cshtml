@@ -1,31 +1,20 @@
 @model List<Eşyalar>
-<link rel="stylesheet" href="~/css/_Urunler.css">
+<link rel="stylesheet" href="~/css/_Eşyalar.css">
 <div class="filter">
-
     <input type="text" id="searchInput" placeholder="Search for images">
-
-
     <div id="filterButtons">
         <button class="filter-btn" data-filter="all">All</button>
         <button class="filter-btn" data-filter="bed">Yataklar</button>
         <button class="filter-btn" data-filter="chair">koltuklar</button>
-
     </div>
 </div>
-
-
-
 <div class="row">
     @foreach (var i in Model)
     {
-        <div class="col-md-5 image-column">
-            <div class="image-gallery">
-                <div class="image-container">
-                    <img src="@i.Image" alt="Image 1">
-                    <h3>@i.Ad</h3>
-                    <button onclick="addToCart('@i.Image', '@i.Ad')">Add to Cart</button>
-                </div>
-            </div>
+        <div class="col-md-4 image-column">
+            <img id=@i.Id src="@i.Image" alt="Image 1">
+            <h3 class="yazi">@i.Ad</h3>
+            <button onclick="addToCart('@i.Image', '@i.Ad')">Add to Cart</button>
         </div>
     }
 </div>

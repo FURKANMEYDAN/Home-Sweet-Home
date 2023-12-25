@@ -14,5 +14,6 @@ namespace _2.Models
            protected override void OnConfiguring(DbContextOptionsBuilder options)
     => options.UseSqlite("DataSource=eşyalar.db");
         public DbSet<Eşyalar> Eşyalars => Set<Eşyalar>();
+        public DbSet<Feedback>Feedbacks {get;set;}
   }
 }

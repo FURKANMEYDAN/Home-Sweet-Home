@@ -10,3 +10,108 @@ li {
     padding: 0;
     box-sizing: border-box;
 }
+.row{
+    margin: auto;
+    width:50%;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.frm-txt{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.frm-txt img{
+    display: block;
+    width: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: solid 4px #333;
+}
+.frm-txt h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.frm-txt h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.frm-txt input{
+    cursor: text !important;
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.button{
+    cursor: pointer !important;
+    width: 50px;
+    height: 20px;
+    left: 50%;
+    display: block;
+    margin-top: 0;
+    position: absolute;
+    margin-left:-25px;
+    margin-right: 0;
+    background-color: #333;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+.form-group-remember input{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 230px;
+    margin-bottom: 0px;
+    cursor: pointer !important;
+}
+.form-group label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-group-remember label{
+    margin-top: -2px;
+    margin-left: -200px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+   
+
+}
+.checkbox input{
+    position: absolute;
+    cursor: pointer!important;
+    margin-top: -37px;
+    margin-left: 260px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 20px solid #333;
+    border-radius: 5px;
+}
+.checkbox h2{
+    position: absolute;
+    color: #333;
+    margin-top: -37px;
+    margin-left: 140px;
+    margin-right: -100px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+
+}

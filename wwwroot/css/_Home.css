@@ -59,7 +59,23 @@ html,body{
 .carousel-item.active {
     display: flex;
 }
+.carousel-inner a{
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
 
+}
+.carousel-inner a:hover{
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #333;
+    z-index: 1000;
+}
 .carousel-item-next:not(.carousel-item-start),
 .carousel-item-prev:not(.carousel-item-end),
 .carousel-item.active:not(.carousel-item-start):not(.carousel-item-end) {
@@ -161,21 +177,18 @@ html,body{
     display: block;
 }
 
-section {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
-
-}
 #product{
-    margin-top: 40px;
+    margin-top: 200px;
     margin-bottom: 20px;
 }
-
-.solutions-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+#services{
+    margin-top: 200px;
+}
+.Tasarimcilar{
+    margin-top: 120px;
+}
+.Tasarimcilar h3{
+    margin-top: 120px;
 }
 
 .serv-img img {
@@ -247,6 +260,7 @@ section h2 {
 }
 
 .card a {
+    background-color: #AFAD9F;
     text-decoration: none;
     color: #3C4142;
     border-radius: 4px;
@@ -255,7 +269,7 @@ section h2 {
 }
 
 .card a:hover {
-    background-color: #a49494;
+    background-color:  #C9AB7E;
 
 }
 
@@ -269,6 +283,8 @@ section h2 {
 .card h3 {
     margin-top: 10px;
     margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
 
 }
 
@@ -337,7 +353,8 @@ h3 {
 }
 
 #subscribe {
-    margin-top: 200px;
+    margin-top: 350px;
+    margin-bottom: 200px;
 }
 
 .form-subscribe input {
@@ -369,36 +386,4 @@ h3 {
 
 #subscribe-button:hover {
     background-color: #C9AB7E;
-}
-@media (max-width: 100px) {
-    .header-default, .header-alt {
-        position: fixed;
-        color: #C9AB7E;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-     
-    }
-    .navbar ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-    }
-    .navbar ul li{
-        margin: 0 10px;
-    }
-    .navbar ul li a{
-        text-decoration: none;
-        color: white;
-        padding: 8px 16px;
-        border-radius: 4px;
-        transition: background-color 0.3s ease-in-out;
-    
-    }
-    .navbar ul li a:hover{
-        background-color: #a49494;
-    }
 }

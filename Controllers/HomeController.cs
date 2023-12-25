@@ -11,5 +11,6 @@ public class HomeController: Controller
         
         return View(Repository.AnaSayfas);
     }
+      
 
 }

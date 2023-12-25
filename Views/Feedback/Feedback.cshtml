@@ -1,0 +1,18 @@
+@model Feedback
+@{
+    Layout = null;
+}
+<form asp-action="SubmitFeedback" method="post">
+    <div class="form-grp">
+        <h3>Geri Bildirim Gönderin</h3>
+        <label asp-for="Email" id="email">Mail Adresiniz:</label>
+        <input asp-for="Email" id="email">
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div class="form-grp">
+        <label asp-for="Message">Mesajınız:</label>
+        <textarea asp-for="Message" id="message"></textarea>
+        <span asp-validation-for="Message"></span>
+    </div>
+    <button type="submit" class="btn">Gönder</button>
+</form>

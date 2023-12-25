@@ -1,0 +1,49 @@
+@{
+    Layout = null;
+}
+@model CreateViewModel
+<h2>Create Users</h2>
+<hr>
+<form asp-action="Create" id="kayitolForm" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="mb-3">
+        <label asp-for="UserName"></label>
+        <input asp-for="UserName" class="form-control">
+        <div class="mb-3">
+            <label asp-for="FullName"></label>
+            <input asp-for="FullName" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="ConfirmPassword"></label>
+            <input asp-for="ConfirmPassword" class="form-control">
+        </div>
+        <div class="mb-3">
+            <input type="checkbox" id="termsCheckbox" required>
+            <label for="termsCheckbox">I accept the terms of service</label>
+        </div>
+        <button type="submit" onclick="validateForm()" class="btn btn-primary">Kaydet</button>
+</form>
+<h3>Zaten üye misiniz?</h3>
+<a asp-action="Login" asp-controller="Account" class="btn btn-primary">Giriş</a>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const checkbox = document.getElementById('termsCheckbox');
+
+        checkbox.addEventListener('invalid', function () {
+            this.setCustomValidity('Kullanıcı sözleşmemizi onaylamanız gerekir!');
+        });
+
+        checkbox.addEventListener('input', function () {
+            this.setCustomValidity('');
+        });
+    });
+</script>

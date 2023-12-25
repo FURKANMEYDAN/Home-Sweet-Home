@@ -1,0 +1,57 @@
+@model _2.ViewModels.LoginViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üye Giriş Paneli</title>
+    <link rel="stylesheet" href="~/css/_Login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+    <div class="col-md-12">
+        <form method="post" class="frm-txt">
+            <img src="~/img/admin.jpg" alt="">
+            <h3>Giriş Yap</h3>
+            <hr>
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input id="password" asp-for="Password" class="form-control">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group-remember" id="rememberMe">
+                <input asp-for="RememberMe" class="form-control">
+                <label class="custom-control-label" asp-for="RememberMe">@Html.DisplayNameFor(m => m.RememberMe)</label>
+            </div>
+            <button type="submit" class="button">Giriş</button>
+        </form>
+        <div class="checkbox">
+            <h2>Parolayı Göster</h2>
+            <input type="checkbox" onclick="showPassword()">
+        </div>
+
+    </div>
+</div>
+
+</body>
+<script>
+    function showPassword() {
+        var pswd = document.getElementById("password");
+        if (pswd.type === "password") {
+            pswd.type = "text";
+        } else {
+            pswd.type = "password";
+        }
+    }
+</script>

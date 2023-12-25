@@ -1,12 +1,24 @@
-<div class="ramona-resim">
+@model List<Odalar>
+    <link rel="stylesheet" href="~/css/_Bosporus.css">
+<div class="bosporus-resim">
 
 <img src="//lazzoni.com/cdn/shop/articles/New_Project_-_2023-04-28T124436.124_2_165495bb-90e6-4767-94cb-fba97f889b7b_720x.jpg?v=1683546808" alt="">
-<p>ocated in the historic neighborhood of Besiktas, Istanbul this residence project was designed with the beauty and serenity of Bosphorus in mind. Placed in Europe, overlooking Asia, the project was the perfect medium to enliven the Japandi style. Natural materials and simple lines create serene minimalism through all spaces, bringing the best from two different sides of the world- Scandinavia and Japan, just like Bosphorus does with Anatolia and Thrace. 
+<h1>Bosphorus Apartment,Istanbul</h1>
+<p>İstanbul'un tarihi Beşiktaş semtinde yer alan bu rezidans projesi, Boğaz'ın güzelliği ve huzuru düşünülerek tasarlandı. Avrupa'da yer alan ve Asya'ya bakan proje, Japandi tarzını canlandırmak için mükemmel bir ortamdı. Doğal malzemeler ve sade çizgiler, tüm mekanlarda dingin bir minimalizm yaratarak, tıpkı Boğaz'ın Anadolu ve Trakya'da yaptığı gibi, dünyanın iki farklı yakasının (İskandinavya ve Japonya) en iyilerini bir araya getiriyor.
 
-Being one of the oldest neighborhoods of İstanbul, Beşiktaş has a grand historical background holding imprints from Sephardi to Armenian to Turks, making the area the perfect location for art and culture. 
+İstanbul'un en eski semtlerinden biri olan Beşiktaş, Sefarad'dan Ermeni'ye, Türk'ten Türklere kadar uzanan geniş bir tarihi geçmişe sahip olup, bölgeyi sanat ve kültür için mükemmel bir mekan haline getiriyor.
 
-Bosphorus House was designed with custom-made articles that were exclusively built for the project from the kitchen to the bathroom to the bedroom with inspirations from the past and present.
+Bosphorus House, mutfağından banyosuna, yatak odasına kadar projeye özel olarak inşa edilen özel yapım eşyalarla geçmişten günümüze ilham alınarak tasarlandı.
 
-Minimalism and functionality come together in natural wood, simple tones, and soft hues, creating minimal yet well-curated spaces in Japandi style. Floor-to-ceiling windows of the residence offer mesmerizing panoramas from the Asian shore of Istanbul while being situated on the European side, beholding the Bosphorus from atop.  
+Minimalizm ve işlevsellik, doğal ahşap, sade tonlar ve yumuşak tonlarda bir araya gelerek Japandi tarzında minimal ama iyi tasarlanmış alanlar yaratıyor. Rezidansın tavandan tabana pencereleri, İstanbul'un Asya yakasından büyüleyici manzaralar sunarken, Avrupa yakasında yer almakta ve Boğaz'ı tepeden görmektedir.
 
-The apartment was featured on Dwell+ as an exclusive interview and also have been Shortlisted for Living Space – Global Award in The International Design and Architecture Awards 2022.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cum veritatis libero hic earum rerum ullam id tenetur ut delectus, praesentium repellendus similique? Vitae magni debitis excepturi itaque beatae. Rerum.</div>
+Daire, Dwell+'da özel bir röportaj olarak yer aldı ve aynı zamanda Uluslararası Tasarım ve Mimarlık Ödülleri 2022'de Yaşam Alanı - Küresel Ödül için Kısa Listeye alındı</p></div>
+
+<div class="row">
+    @foreach (var i in Model)
+    {
+        <div class="col-md-4">
+            <img src="@i.Image">
+        </div>
+    }
+</div>

@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,7 +18,9 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        
         crossorigin="anonymous"></script>
+        
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/lib/fontawasome/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/css/site.css">
@@ -44,6 +47,7 @@
         </div>
         <div id="cartPopup" class="cart-popup">
             <button id="closeCart" onclick="closeCart()" class="close-btn">Kapat</button>
+            <button onclick="clearCart()">Sepeti Temizle</button>
             <h3>Alışveriş Sepetim</h3>
             <div id="cartItems" class="cart-items"></div>
         </div>

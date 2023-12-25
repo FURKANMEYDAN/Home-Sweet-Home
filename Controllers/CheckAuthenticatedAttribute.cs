@@ -13,7 +13,7 @@ namespace _2.Controllers
         {
             if (filterContext.HttpContext.User.Identity.IsAuthenticated)
             {
-                filterContext.Result = new RedirectResult("/home"); // Change "/dashboard" to your desired route
+                filterContext.Result = new RedirectResult("/home"); 
             }
         }
     }

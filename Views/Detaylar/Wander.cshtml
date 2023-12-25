@@ -1,8 +1,20 @@
-<div class="ramona-resim">
+@model List<Odalar>
+   <link rel="stylesheet" href="~/css/_Wander.css">
+<div class="wander-resim">
 
-<img src="//lazzoni.com/cdn/shop/articles/fullres_720x.jpg?v=1696416542" alt="">
-<p>Indulge in the captivating allure of this opulent California sanctuary, offering an impeccable setting for a tranquil vacation. Nestled alongside the majestic Yosemite Falls, this residence boasts breathtaking panoramic vistas of the surrounding natural landscape, encompassing vast stretches of riverfront, a secluded waterfall, and a picturesque islet, all within the expansive 5-acre estate.
+<img src="//lazzoni.com/cdn/shop/articles/fullres_3024x.jpg?v=1696416542" alt="">
+<h1>Wander Yosemite Falls,California</h1>
+<p>Sakin bir tatil için kusursuz bir ortam sunan bu gösterişli Kaliforniya sığınağının büyüleyici cazibesinin keyfini çıkarın. Görkemli Yosemite Şelaleleri'nin yanında yer alan bu rezidans, tamamı 5 dönümlük geniş bir arazi içinde yer alan geniş nehir kıyısı alanlarını, gözlerden uzak bir şelaleyi ve pitoresk bir adacığı kapsayan çevredeki doğal peyzajın nefes kesen panoramik manzaralarına sahiptir.
 
-Immerse yourself in the epitome of luxury with an array of top-tier amenities, including a private backyard, al fresco dining area, barbecue grill, inviting fire pit, cutting-edge workstations, and even a Tesla vehicle at your disposal. 
+Özel bir arka bahçe, açık havada yemek alanı, barbekü ızgarası, davetkar ateş çukuru, son teknoloji iş istasyonları ve hatta hizmetinizde olan bir Tesla aracı dahil olmak üzere bir dizi üst düzey olanakla kendinizi lüksün özüne kaptırın.
 
-The latest Lazzoni partnership with Wander where luxury real-estate meets comfort and tranquility of nature. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex natus inventore quod doloribus aspernatur saepe consectetur ea, velit optio iure alias, libero nobis vitae earum tempore quas vel, illo officiis?</div>
+Lüks gayrimenkulün doğanın konforu ve huzuruyla buluştuğu Wander ile en yeni Lazzoni ortaklığı</p></div>
+<div class="row">
+
+    @foreach (var i in Model)
+    {
+        <div class="col-md-4">
+            <img src="@i.Image">
+        </div>
+    }
+</div>

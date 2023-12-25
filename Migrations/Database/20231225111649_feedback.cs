@@ -5,7 +5,7 @@
 namespace _2.Migrations.Database
 {
     /// <inheritdoc />
-    public partial class Eşyalar : Migration
+    public partial class feedback : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -24,6 +24,20 @@ namespace _2.Migrations.Database
                 {
                     table.PrimaryKey("PK_Eşyalars", x => x.Id);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Feedbacks",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Message = table.Column<string>(type: "TEXT", nullable: false),
+                    Email = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Feedbacks", x => x.Id);
+                });
         }
 
         /// <inheritdoc />
@@ -31,6 +45,9 @@ namespace _2.Migrations.Database
         {
             migrationBuilder.DropTable(
                 name: "Eşyalars");
+
+            migrationBuilder.DropTable(
+                name: "Feedbacks");
         }
     }
 }

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\2.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Bosporus.css",
+      "PackagePath": "staticwebassets\\css\\_Bosporus.css"
+    },
+    {
+      "Id": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Eşyalar.css",
+      "PackagePath": "staticwebassets\\css\\_Eşyalar.css"
+    },
+    {
       "Id": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Footer.css",
       "PackagePath": "staticwebassets\\css\\_Footer.css"
     },
@@ -25,12 +33,16 @@
       "PackagePath": "staticwebassets\\css\\_NavbarAlt.css"
     },
     {
+      "Id": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Ramona.css",
+      "PackagePath": "staticwebassets\\css\\_Ramona.css"
+    },
+    {
       "Id": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_ShopRooms.css",
       "PackagePath": "staticwebassets\\css\\_ShopRooms.css"
     },
     {
-      "Id": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Urunler.css",
-      "PackagePath": "staticwebassets\\css\\_Urunler.css"
+      "Id": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Wander.css",
+      "PackagePath": "staticwebassets\\css\\_Wander.css"
     },
     {
       "Id": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_adminPaneli.css",

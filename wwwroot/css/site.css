@@ -366,12 +366,7 @@ h3 {
     max-width: 100px;
     max-height: 100px;
 }
-.image-gallery{
-    align-items: center;
-    text-align: center;
-    margin-left: 250px;
-    margin-top: 100px;
-}
+
 .filter{
     float: left;
     display: block;
@@ -383,23 +378,8 @@ h3 {
     text-decoration: none;
     
 }
-#filterbuttons{
-    margin-top: 20px;
-}
-.image-container h3{
-margin-top: 100px;
-color: #333;
-margin-left: 150px;
-font-family: 'Poppins', sans-serif;
-font-size: 20px;
-font-weight: bold;
-text-align: center;
-}
-.image-container button{
-   margin-top: 20px;
-    margin-left: 150px;
 
-}
+
 
 #subscribe-button:hover {
     background-color: #C9AB7E;

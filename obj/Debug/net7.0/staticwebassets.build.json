@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XZtuJNcq+OeUnBiJpU65QCBiarXnhzeNENIm+Kul/Bg=",
+  "Hash": "jWG6uYhb2SIV1CtZqSA4n/JW+wv5aK3VUmLn7b0atN0=",
   "Source": "2",
   "BasePath": "_content/2",
   "Mode": "Default",
@@ -72,6 +72,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\_adminPaneli.css"
+    },
+    {
+      "Identity": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Bosporus.css",
+      "SourceId": "2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\",
+      "BasePath": "_content/2",
+      "RelativePath": "css/_Bosporus.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_Bosporus.css"
+    },
+    {
+      "Identity": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Eşyalar.css",
+      "SourceId": "2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\",
+      "BasePath": "_content/2",
+      "RelativePath": "css/_Eşyalar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_Eşyalar.css"
     },
     {
       "Identity": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Footer.css",
@@ -169,6 +207,25 @@
       "OriginalItemSpec": "wwwroot\\css\\_NavbarAlt.css"
     },
     {
+      "Identity": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Ramona.css",
+      "SourceId": "2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\",
+      "BasePath": "_content/2",
+      "RelativePath": "css/_Ramona.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_Ramona.css"
+    },
+    {
       "Identity": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_ShopRooms.css",
       "SourceId": "2",
       "SourceType": "Discovered",
@@ -188,12 +245,12 @@
       "OriginalItemSpec": "wwwroot\\css\\_ShopRooms.css"
     },
     {
-      "Identity": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Urunler.css",
+      "Identity": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\_Wander.css",
       "SourceId": "2",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\",
       "BasePath": "_content/2",
-      "RelativePath": "css/_Urunler.css",
+      "RelativePath": "css/_Wander.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +261,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\_Urunler.css"
+      "OriginalItemSpec": "wwwroot\\css\\_Wander.css"
     },
     {
       "Identity": "C:\\Users\\FURKAN\\Desktop\\1\\2\\wwwroot\\css\\site.css",

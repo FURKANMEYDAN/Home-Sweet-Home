@@ -1,3 +1,4 @@
+@model _2.ViewModels.LoginViewModel
 @{
     Layout = null;
 }
@@ -14,13 +15,15 @@
     
     <div class="container">
         <div class="tbtx">
-            <form class="frm-txt">
+            <form class="frm-txt" method="post">
                 <img src="~/img/admin.jpg" alt="">
                 <h3>Admin Login</h3>
-                <input type="text"   id="username" name="username" placeholder="Username" required>
-                <input type="password"  id="password" placeholder="Password" name="password" required>              
+                <input type="text"  asp-for="Email" id="username" name="username" placeholder="Username" required>
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <input type="password" asp-for="Password"  id="password" placeholder="Password" name="password" required>              
+                 <span asp-validation-for="Password" class="text-danger"></span>
+                <a asp-action="Index" asp-controller="Home" id="uyari" onclick="return Uyari()">Giriş</a>
             </form>
-                <a href="#" id="uyari" onclick="return Uyari()">Giriş</a>
              <div class="checkbox">
                         <h2>Parolayı Göster</h2>
                         <input type="checkbox" onclick="showPassword()">

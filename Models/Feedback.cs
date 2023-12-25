@@ -5,18 +5,10 @@ using System.Threading.Tasks;
 
 namespace _2.Models
 {
-    public  class AnaSayfa
+    public class Feedback
     {
         public int Id { get; set; }
-        public string? Ad { get; set; }
-        public string? Title { get; set; }
-        public string? Image { get; set; }
-        public string[]? Tags { get; set; }
-          
         public string Message { get; set; }=string.Empty;
         public string Email { get; set; }=string.Empty;
-        
-
-        
     }
 }

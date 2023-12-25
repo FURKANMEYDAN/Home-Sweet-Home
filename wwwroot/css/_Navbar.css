@@ -17,12 +17,12 @@ li {
 
 .blur {
     filter: blur(5px);
-    /* Apply blur effect */
+    
 }
 
 .blur .cart-popup {
     filter: none;
-    /* Exclude the cart popup from being blurred */
+   
 }
 
 body {
@@ -50,6 +50,40 @@ body {
     float: left;
 
 
+}
+
+.dropdown-menu #Logout {
+    position: absolute;
+    margin-top: -75px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.dropdown-menu #Login {
+    position: absolute;
+    margin-top: -75px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.dropdown-menu #Register {
+    position: absolute;
+    margin-top: -25px;
+    font-weight: bold;
+    margin-left: -20px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.dropdown-menu .fa{
+    margin-top: 3px;
+    position: absolute;
+    margin-left: 10px;
 }
 
 .nav-default ul li a {
@@ -87,8 +121,11 @@ body {
     cursor: pointer !important;
 }
 
-.btn-group-2 :hover {
+.btn-group-2 a:hover {
     background-color: #a49494;
+    border-radius: 2px;
+    width: 170px;
+    height: 150px;
 }
 
 .cart-popup {
@@ -108,6 +145,10 @@ body {
     overflow-y: auto;
 
 }
+.cart-popup img{
+    width: 100px;
+    height: 100px;
+}
 
 .close-btn {
     cursor: pointer !important;
@@ -120,75 +161,20 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 100px) {
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 120px;
+    background-color: #c8ad7f; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; 
 
-    .header-default,
-    .header-alt {
-        position: fixed;
-        color: #C9AB7E;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-   
-    }
-
-    .nav-default input {
-        margin-top: 50px;
-        width: 175px;
-        height: 175px;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-
-    .nav-default ul li {
-        margin-top: 70px;
-        display: inline;
-        margin-right: 20px;
-        float: left;
-
-
-    }
-
-    .nav-default ul li a {
-        cursor: pointer !important;
-        font-weight: 300;
-        text-decoration: none;
-        font-size: 13px;
-        color: white;
-        padding: 8px 16px;
-        border-radius: 4px;
-        transition: background-color 0.3s ease-in-out;
-    }
-
-    .nav-default ul li a:hover {
-        background-color: #a49494;
-
-    }
-
-    .btn-group {
-        margin-top: 70px;
-
-        display: inline;
-        position: absolute;
-        left: 100%;
-        transform: translate(-250%, -50%);
-        z-index: 9999;
-    }
-
-    .btn-group-2 {
-        margin-top: 70px;
-        display: inline;
-        position: absolute;
-        left: 87%;
-        transform: translate(0%, -50%);
-        cursor: pointer !important;
-    }
-
-    .btn-group-2 :hover {
-        background-color: #a49494;
-    }
 
 }
+
+.sticky-navbar:hover {
+    background-color: #f5f5f5; 
+}
+

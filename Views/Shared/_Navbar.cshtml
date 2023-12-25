@@ -22,13 +22,53 @@
                     class="fa fa-user fa-2x" style="color: white;" aria-hidden="true"></i></a>
             <ul class="dropdown-menu">
                 <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout</a>
+                    <a class="nav-link text-dark" id="Logout" asp-controller="Account" asp-action="Logout">Logout<i
+                            class="fa fa-sign-out fa" aria-hidden="true"></i></a>
                 </li>
-             
+
+
+            </ul>
+        </div>
+        <div class="btn-group-2">
+            <a onclick="toggleCart()" class="cart-icon"><i class="fa fa-shopping-cart fa-2x " style="color: white;"
+                    aria-hidden="true"></i></a>
+        </div>
+     
+    </nav>
+}
+else
+{
+    <nav class="nav-default">
+
+        <input type="image" src="~/img/HomeSweet.png" onclick="geriDon()" id="logo" alt="logo">
+        <div class="nav-container">
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">AnaSayfa</a></li>
+                <li><a asp-controller="Detaylar" asp-action="Odalar">Odalar</a></li>
+                <li><a asp-controller="Home">Hizmetlerimiz</a></li>
+                <li><a asp-controller="Detaylar" asp-action="Eşyalar">Ürünler</a></li>
+            </ul>
+
+        </div>
+
+        <div class="btn-group">
+            <a type="button" class="btn dropdown" data-bs-toggle="dropdown" aria-expanded="false"><i
+                    class="fa fa-user fa-2x" style="color: white;" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+
+                <li class="nav-item">
+                    <a class="nav-link text-dark" id="Login" asp-controller="Account" asp-action="Login">Login<i
+                            class="fa fa-sign-in fa" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" id="Register" asp-controller="Account" asp-action="Create">Register<i
+                            class="fa fa-user-plus fa" aria-hidden="true"></i></a>
+                </li>
+
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-               
+
             </ul>
         </div>
         <div class="btn-group-2">
@@ -36,26 +76,18 @@
                     aria-hidden="true"></i></a>
         </div>
     </nav>
-}
-else
-{
-    <div class="btn-group">
-        <a type="button" class="btn dropdown" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-user fa-2x"
-                style="color: #555;" aria-hidden="true"></i></a>
-        <ul class="dropdown-menu">
-
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Login">Login</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Create">Register</a>
-            </li>
-
-            <li>
-                <hr class="dropdown-divider">
-            </li>
-  
-        </ul>
-    </div>
 
 }
+<script>
+    window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.nav-default');
+    var carouselHeight = document.querySelector('.carousel-container').offsetHeight;
+
+    if (window.scrollY > carouselHeight) {
+        navbar.classList.add('sticky-navbar');
+    } else {
+        navbar.classList.remove('sticky-navbar');
+    }
+});
+
+</script>

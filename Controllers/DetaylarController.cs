@@ -11,15 +11,15 @@ namespace _2.Controllers
     {
         public IActionResult Ramona()
         {
-            return View();
+            return View(RamonaRepository.Odalars);
         }
         public IActionResult Wander()
         {
-            return View();
+            return View(WanderRepository.Odalars);
         }
         public IActionResult Bosporus()
         {
-            return View();
+            return View(BospurusRepository.Odalars);
         }
 
         public IActionResult OturmaOdasi()

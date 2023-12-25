@@ -10,8 +10,8 @@ using _2.Models;
 namespace _2.Migrations.Database
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20231223142631_Eşyalar")]
-    partial class Eşyalar
+    [Migration("20231225111649_feedback")]
+    partial class feedback
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,6 +37,25 @@ namespace _2.Migrations.Database
                     b.HasKey("Id");
 
                     b.ToTable("Eşyalars");
+                });
+
+            modelBuilder.Entity("_2.Models.Feedback", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Feedbacks");
                 });
 #pragma warning restore 612, 618
         }

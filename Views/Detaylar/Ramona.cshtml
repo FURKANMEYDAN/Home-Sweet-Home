@@ -1,10 +1,30 @@
+@model List<Odalar>
+<link rel="stylesheet" href="~/css/_Ramona.css">
 <div class="ramona-resim">
 
-<img src="//lazzoni.com/cdn/shop/articles/11_720x.jpg?v=1698675257" alt="">
-<p>This mid-century modern Corona del Mar landmark was created by local icon Chris Gallo and recognized OC architect Christopher Brandon. The most appealing aspect of the mansion is that it is not open to public and will serve as a lavish, private hideaway.
+    <img src="//lazzoni.com/cdn/shop/articles/11_3024x.jpg?v=1698675257 " alt="">
+    <h1>Ramona Drive Manson,California</h1>
+    
+        <p>Yüzyıl ortasından kalma bu modern Corona del Mar simgesi, yerel ikon Chris Gallo ve tanınmış OC mimarı
+            Christopher Brandon tarafından yaratıldı.
+            Konağın en çekici yönü halka açık olmaması ve lüks, özel bir saklanma yeri olarak hizmet verecek olmasıdır.
+        
 
-The open-plan living area's Great Room is styled by Lazzoni that makes the perfect match with its contemporary articles. A custom Mony corner sofa takes the spotlight as the centerpiece with the latest double-sided modules which can be used from both sides of the room accompanied by Arte armchair in its iconic ginger color.
+        Açık plan yaşam alanının Büyük Odası, çağdaş eşyalarla mükemmel uyum sağlayan Lazzoni tasarımıdır.
+        Özel yapım Mony köşe kanepe, odanın her iki tarafından da kullanılabilen en yeni çift taraflı modülleri ve
+            ikonik zencefil rengindeki Arte koltuğuyla dikkatleri üzerine çekiyor.
 
-Mony sofa makes another appearance in the Pool Room along with timeless Ada armchair and Duo ottoman. The neutral colors of the sitting units blends in with the design of room while keeping the area functional without being overwhelming. </p>
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iusto fugit excepturi velit voluptas cumque, ipsum, iure quod tempora amet facilis ullam vel tempore. 
-Atque qui omnis saepe quae eum.</div>
+        Mony kanepe, zamansız Ada koltuk ve Duo pufla birlikte Bilardo Odası'nda başka bir görünüme kavuşuyor. Oturma
+            ünitelerinin nötr renkleri odanın tasarımına uyum sağlarken, alanı bunalmadan işlevsel kılıyor.
+        </p>
+
+</div>
+<div class="row">
+
+    @foreach (var i in Model)
+    {
+        <div class="col-md-4">
+            <img src="@i.Image">
+        </div>
+    }
+</div>

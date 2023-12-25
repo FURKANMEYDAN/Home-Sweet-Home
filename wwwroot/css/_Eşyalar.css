@@ -1,0 +1,39 @@
+.row {
+    margin-top:120px;
+    position: relative;
+    left: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+.filter{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.row img{
+    margin-top: 100px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.yazi{
+    margin-left: -60px;
+    margin-right: 0;
+    left: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.row button{
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #AFAD9F;
+    margin-left: 145px;
+}
+.row button:hover {
+    background-color:  #C9AB7E;
+
+}
