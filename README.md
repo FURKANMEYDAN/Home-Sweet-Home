@@ -10,7 +10,7 @@ Projenin çalışması için gerekli paketleri yüklemek için terminal üzerind
 Daha sonra aşşağıda belirttiğim komutları kopyalayıp tek tek yüklemeniz gerekli.  
 
 Not:Ben projemde IDE olara VSCode kullandım,eğer Visual Studio kullanıyorsanız nuget paket  
-yükleyicisine aşşağıdaki gerekli paketleri tek tek aratıp yükleyebilirsiniz.  
+yükleyicisine aşağıdaki gerekli paketleri tek tek aratıp yükleyebilirsiniz.  
 Projemde database olarak SQLite kullandım fakat siz istediğiniz provider'ı [buradan](https://learn.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli) ekleyebilirsiniz
 
 
