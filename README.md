@@ -48,9 +48,7 @@ Eğer yukarıdaki komut yazılınca tarayıcınızda açılmıyorsa
 Terminal ekranında ki  locallhost linkine tıklayarak sayfayı açabilirsiniz.  
 Durdurmak için "Cntrl-C" kısayolunu kullanarak terminali durdurabilir "Cntrl+R" ile reset atabilirsiniz.
 
-## Contributing
 
-Pull requestlerinizi kabul ediyorum.Kendimi geliştirmek adına yapıcı eleştirelere her zaman açığım.
 
 
 
