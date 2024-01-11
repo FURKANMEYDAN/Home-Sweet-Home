@@ -9,7 +9,7 @@ bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzon
 Projenin çalışması için gerekli paketleri yüklemek için terminal üzerinden kodun bulunduğu dizine gelmeliyiz.(VSCode için "cntrl+j" kısayolu terminal ekranını açacaktır.)
 Daha sonra aşşağıda belirttiğim komutları kopyalayıp tek tek yüklemeniz gerekli.  
 
-Not:Ben projemde IDE olara VSCode kullandım,eğer Visual Studio kullanıyorsanız nuget paket  
+**Not:** Ben projemde IDE olara VSCode kullandım,eğer Visual Studio kullanıyorsanız nuget paket  
 yükleyicisine aşağıdaki gerekli paketleri tek tek aratıp yükleyebilirsiniz.  
 Projemde database olarak SQLite kullandım fakat siz istediğiniz provider'ı [buradan](https://learn.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli) ekleyebilirsiniz
 
@@ -39,7 +39,7 @@ dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 7.
 ## Kullanım
 Tekrar terminal kısmında projenin olduğu konuma geliyoruz.  
 Daha sonra aşağıdaki kodu kopyalayıp terminal ekranına yapıştırıyoruz.  
-Not:Kullandığınız IDE de dosyayı açarsanız "debug" butonu veya "run" butonu kullanarak da çalıştırabilirsiniz.
+**Not:** Kullandığınız IDE de dosyayı açarsanız "debug" butonu veya "run" butonu kullanarak da çalıştırabilirsiniz.
 ```
 dotnet watch run
 ```
