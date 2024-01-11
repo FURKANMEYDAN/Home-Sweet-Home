@@ -44,7 +44,6 @@ Daha sonra aşağıdaki kodu kopyalayıp terminal ekranına yapıştırıyoruz.
 dotnet watch run
 ```
 Eğer yukarıdaki komut yazılınca tarayıcınızda açılmıyorsa  
-![1](https://drive.google.com/file/d/1fdSZCJTw3wyy20A_Lv-dVSF3PW9I9iN-/view?usp=sharing)
 Terminal ekranında ki  locallhost linkine tıklayarak sayfayı açabilirsiniz.  
 Durdurmak için "Cntrl-C" kısayolunu kullanarak terminali durdurabilir "Cntrl+R" ile reset atabilirsiniz.
 
