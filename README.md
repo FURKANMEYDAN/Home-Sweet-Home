@@ -1,6 +1,6 @@
 # Home Sweet Home
 
-Home Sweet Home mobilya satışı yapan ve konsept oda tasarlayan hayali bir firma,
+Home Sweet Home mobilya satışı yapan ve konsept oda tasarlayan hayali bir firma,(Techcareer.net Fullstack Web Developer Bootcamp kapsamında tasarlamış olduğum bir proje)
 bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzoni.com](https://lazzoni.com/) sitesinden veri çektim.Özellikle tasarımımı lazzoniye benzetmeye çalıştım.
 
 ## Kurulum
