@@ -1,12 +1,21 @@
 # Home Sweet Home
 
-Home Sweet Home mobilya satışı yapan ve konsept oda tasarlayan hayali bir firma,(Techcareer.net Fullstack Web Developer Bootcamp kapsamında tasarlamış olduğum bir proje)
-bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzoni.com](https://lazzoni.com/) sitesinden veri çektim.Özellikle tasarımımı lazzoniye benzetmeye çalıştım.  
+**Techcareer.net Fullstack Web Developer Bootcamp bitirme projesi kapsamında tasarlamış olduğum**  
+*Home Sweet Home* isimli mobilya satışı yapan ve konsept odalar tasarlayan hayali bir firmanın websitesi.
+Tasarımda görsel kısımda [lazzoni.com](https://lazzoni.com/) sitesinden veri çektim.  
+Özellikle tasarımımı lazzoni firmasının web sitesine benzetmeye çalıştım.    
+
+  
+
+  
+
+**Web sitesinden görüntüler**
 
 
+![web-home1](https://github.com/FURKANMEYDAN/Techcarreernet/assets/103230828/c79b4238-45d3-4c35-a6da-1fafea9e761c)   
 
-![web-home1](https://github.com/FURKANMEYDAN/Techcarreernet/assets/103230828/c79b4238-45d3-4c35-a6da-1fafea9e761c)
-![web-home2](https://github.com/FURKANMEYDAN/Techcarreernet/assets/103230828/701699ff-d41b-44cd-93d6-062825fceb59)
+![web-home2](https://github.com/FURKANMEYDAN/Techcarreernet/assets/103230828/701699ff-d41b-44cd-93d6-062825fceb59)  
+
 ![web-home3](https://github.com/FURKANMEYDAN/Techcarreernet/assets/103230828/aa6f1d6d-e7e9-4d3e-840c-e66c9081e1fb)
 
 
@@ -17,12 +26,12 @@ bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzon
 ## Kurulum
 Öncelikle .Net sdk indirmemiz gerekiyor ben bu projede 7.0 sürümünü kullandım dolayısıyla .Net 7.0 sürümünü indirmeliyiz [buradan](https://dotnet.microsoft.com/en-us/download/dotnet) indirebilirsiniz.
 
-Projenin çalışması için gerekli paketleri yüklemek için terminal üzerinden kodun bulunduğu dizine gelmeliyiz.(VSCode için "cntrl+j" kısayolu terminal ekranını açacaktır.)
-Daha sonra aşşağıda belirttiğim komutları kopyalayıp tek tek yüklemeniz gerekli.  
+Projenin çalışması için gerekli paketleri yüklemek için terminal üzerinden kodun bulunduğu dizine gelmeliyiz.(VSCode için **"Cntrl+J"** kısayolu terminal ekranını açacaktır.)
+Daha sonra aşağıda belirttiğim komutları kopyalayıp tek tek yüklemeniz gerekli.  
 
-**Not:** Ben projemde IDE olara VSCode kullandım,eğer Visual Studio kullanıyorsanız nuget paket  
+> **Not:** Ben projemde IDE olarak VSCode kullandım, eğer Visual Studio kullanıyorsanız nuget paket  
 yükleyicisine aşağıdaki gerekli paketleri tek tek aratıp yükleyebilirsiniz.  
-Projemde database olarak SQLite kullandım fakat siz istediğiniz provider'ı [buradan](https://learn.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli) ekleyebilirsiniz
+Projede database olarak SQLite kullanıldı fakat siz istediğiniz provider'ı [buradan](https://learn.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli) indirip kurabilirsiniz.
 
 
 ```bash
@@ -48,22 +57,25 @@ dotnet add package Microsoft.Owin.Security.Cookies --version 4.2.2
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 7.0
 ```
 ## Kullanım
-Tekrar terminal kısmında projenin olduğu konuma geliyoruz.  
+Terminal kısmında projenin olduğu konuma geliyoruz.  
 Daha sonra aşağıdaki kodu kopyalayıp terminal ekranına yapıştırıyoruz.  
-**Not:** Kullandığınız IDE de dosyayı açarsanız "debug" butonu veya "run" butonu kullanarak da çalıştırabilirsiniz.
+> **Not:** Kullandığınız IDE de dosyayı açarsanız "debug" butonu veya "run" butonu kullanarak da çalıştırabilirsiniz.
 ```
 dotnet watch run
 ```
-Eğer yukarıdaki komut yazılınca tarayıcınızda açılmıyorsa  
-Terminal ekranında ki  locallhost linkine tıklayarak sayfayı açabilirsiniz.  
-Durdurmak için "Cntrl-C" kısayolunu kullanarak terminali durdurabilir "Cntrl+R" ile reset atabilirsiniz.
+- **Hata:** "Kodu çalıştırdım fakat hiçbir şey olmadı."
+- **Çözüm:** Terminal ekranındaki locallhost linkine tıklayarak sayfayı tarayıcınızda açabilirsiniz.
+- **Ekstra:** 
+Durdurmak için **"Cntrl-C"** kısayolunu kullanarak terminali durdurabilir **"Cntrl+R"** ile  yenileyebilirsiniz.
 
-## Docker
+## Docker Kurulumu
 Eğer Docker Desktop uygulamanız yoksa [buradan](https://www.docker.com/products/docker-desktop/) işletim sisteminize göre indirebilirsiniz.
 Herhangi bir üyeliğiniz bulunmuyorsa [buradan](https://hub.docker.com/signup) üyelik işlemlerinizi gerçekleştirebilirsiniz.  
+## Docker ile çalıştırma
 
 Yükleme ve kaydolma işlemlerini tamamladıktan sonra Docker Desktop adlı uygulamayı açıyoruz.  
 
+> **Note:** Docker Desktop uygulamasının bilgisayarınızda yüklü olduğundan emin olun.Eğer yüklemediyseniz [buradan](https://www.docker.com/products/docker-desktop/) indirebilirsiniz.
 Terminale aşşağıdaki komutları sırasıyla  yazıyoruz.
 
 ```bash
@@ -75,4 +87,6 @@ docker pull bfmeydan/homesweethome
 ```bash
 docker run -p 8080:80 bfmeydan/homesweethome
 ```
-**Not:** Uygulamayı görmek için tarayıcınızda "http://localhost:8080/" adresinin girili olması gerekir.
+> **Not:** Docker Desktop uygulamasının çalıştığından emin olunuz.
+- **Hata:** "Çalıştırdım hiçbir şey gelmedi."
+- **Çözüm:** tarayıcınızda  [http://localhost:8080/](http://localhost:8080/) linkini açınız.
