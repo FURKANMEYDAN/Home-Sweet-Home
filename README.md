@@ -4,9 +4,10 @@ Home Sweet Home mobilya satışı yapan ve konsept oda tasarlayan hayali bir fir
 bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzoni.com](https://lazzoni.com/) sitesinden veri çektim.Özellikle tasarımımı lazzoniye benzetmeye çalıştım.  
 
 
-![deneme1](https://github.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home1.png?raw=true)
-![deneme2](https://github.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home2.png?raw=true)
-![deneme3](https://github.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home3.png?raw=true)
+
+![web-home1](https://github.com/FURKANMEYDAN/Techcarreernet/assets/103230828/c79b4238-45d3-4c35-a6da-1fafea9e761c)
+![web-home2](https://github.com/FURKANMEYDAN/Techcarreernet/assets/103230828/701699ff-d41b-44cd-93d6-062825fceb59)
+![web-home3](https://github.com/FURKANMEYDAN/Techcarreernet/assets/103230828/aa6f1d6d-e7e9-4d3e-840c-e66c9081e1fb)
 
 
 
