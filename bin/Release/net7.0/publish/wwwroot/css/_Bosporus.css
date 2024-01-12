@@ -1,0 +1,61 @@
+.row {
+    margin-top:200px;
+    left: 7%;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.row img{
+    top: 10%;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.bosporus-resim{
+    margin-top: 250px;
+    
+    position: relative;
+    
+    
+    top: 50%;
+    transform: translate(-20%, -20%);
+}
+.bosporus-resim h1{
+    margin-top: 150px;
+    position: absolute;
+    z-index: 9999;
+    color: white;
+    font-weight: normal;
+    margin-left: 0;
+    margin-right: 0;
+    left: 50%;
+    font-size: 40px;
+    top: 50%;
+}
+.bosporus-resim img{
+    margin-top: 50px;
+    filter: brightness(75%);
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    left: 45%;
+    top: 50%;
+    transform: translate(-20%, 0%);
+    border-radius: 10px;
+}
+
+.bosporus-resim p{
+    position: absolute;
+    margin-top: 150px;
+    left: 50%;
+    top: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}

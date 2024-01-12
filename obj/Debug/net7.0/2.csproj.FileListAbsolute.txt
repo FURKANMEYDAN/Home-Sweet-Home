@@ -292,3 +292,8 @@ C:\Users\FURKAN\Desktop\1\2\bin\Debug\net7.0\Microsoft.Owin.Security.dll
 C:\Users\FURKAN\Desktop\1\2\bin\Debug\net7.0\Microsoft.Owin.Security.Cookies.dll
 C:\Users\FURKAN\Desktop\1\2\bin\Debug\net7.0\Microsoft.Owin.Security.OAuth.dll
 C:\Users\FURKAN\Desktop\1\2\obj\Debug\net7.0\2.sourcelink.json
+C:\Users\FURKAN\Desktop\1\2\bin\Debug\net7.0\out\2.deps.json
+C:\Users\FURKAN\Desktop\1\2\bin\Debug\net7.0\out\2.runtimeconfig.json
+C:\Users\FURKAN\Desktop\1\2\bin\Debug\net7.0\out\2.staticwebassets.runtime.json
+C:\Users\FURKAN\Desktop\1\2\bin\Debug\net7.0\out\appsettings.Development.json
+C:\Users\FURKAN\Desktop\1\2\bin\Debug\net7.0\out\appsettings.json

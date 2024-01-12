@@ -18,16 +18,48 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\FURKAN\Desktop\1\2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/FURKAN/Desktop/1/2/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FURKAN/Desktop/1/2/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/FURKAN/Desktop/1/2/Views/Admin/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FURKAN/Desktop/1/2/Views/Detaylar/Bakın.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YXlsYXJcQmFrxLFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FURKAN/Desktop/1/2/Views/Detaylar/Bosporus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YXlsYXJcQm9zcG9ydXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FURKAN/Desktop/1/2/Views/Detaylar/Eşyalar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YXlsYXJcRcWfeWFsYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FURKAN/Desktop/1/2/Views/Detaylar/Odalar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YXlsYXJcT2RhbGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/FURKAN/Desktop/1/2/Views/Detaylar/Ramona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YXlsYXJcUmFtb25hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/FURKAN/Desktop/1/2/Views/Detaylar/Urunler.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YXlsYXJcVXJ1bmxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FURKAN/Desktop/1/2/Views/Detaylar/Wander.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YXlsYXJcV2FuZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FURKAN/Desktop/1/2/Views/Feedback/Feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcRmVlZGJhY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FURKAN/Desktop/1/2/Views/Home/Index.cshtml]
@@ -36,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/FURKAN/Desktop/1/2/Views/Roles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FURKAN/Desktop/1/2/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FURKAN/Desktop/1/2/Views/Roles/Index.cshtml]
@@ -58,10 +94,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FURKAN/Desktop/1/2/Views/Users/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/FURKAN/Desktop/1/2/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,16 +102,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FURKAN/Desktop/1/2/Views/Users/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/FURKAN/Desktop/1/2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FURKAN/Desktop/1/2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FURKAN/Desktop/1/2/Views/Ürünler/Yatak.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5xyw7xubGVyXFlhdGFrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FURKAN/Desktop/1/2/Views/Shared/_Layout.cshtml]
