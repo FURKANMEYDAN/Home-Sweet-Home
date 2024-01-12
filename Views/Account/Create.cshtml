@@ -1,8 +1,22 @@
+@model CreateViewModel
 @{
     Layout = null;
 }
-@model CreateViewModel
-<h2>Create Users</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üyelik oluşturma</title>
+    <link rel="stylesheet" href="~/css/_Create.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+
+<h2>Kullanıcı Oluşturma</h2>
 <hr>
 <form asp-action="Create" id="kayitolForm" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
@@ -33,7 +47,7 @@
 </form>
 <h3>Zaten üye misiniz?</h3>
 <a asp-action="Login" asp-controller="Account" class="btn btn-primary">Giriş</a>
-
+</body>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const checkbox = document.getElementById('termsCheckbox');

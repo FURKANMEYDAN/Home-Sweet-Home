@@ -1,0 +1,66 @@
+
+body, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+#termsCheckbox {
+    margin-right: 5px;
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.text-danger {
+    margin-top: 10px;
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.btn-login {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}

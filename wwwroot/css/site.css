@@ -384,35 +384,3 @@ h3 {
 #subscribe-button:hover {
     background-color: #C9AB7E;
 }
-@media (max-width: 100px) {
-    .header-default, .header-alt {
-        position: fixed;
-        color: #C9AB7E;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-    
-    }
-    .navbar ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-    }
-    .navbar ul li{
-        margin: 0 10px;
-    }
-    .navbar ul li a{
-        text-decoration: none;
-        color: white;
-        padding: 8px 16px;
-        border-radius: 4px;
-        transition: background-color 0.3s ease-in-out;
-    
-    }
-    .navbar ul li a:hover{
-        background-color: #a49494;
-    }
-}
