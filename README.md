@@ -1,7 +1,11 @@
 # Home Sweet Home
 
 Home Sweet Home mobilya satışı yapan ve konsept oda tasarlayan hayali bir firma,(Techcareer.net Fullstack Web Developer Bootcamp kapsamında tasarlamış olduğum bir proje)
-bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzoni.com](https://lazzoni.com/) sitesinden veri çektim.Özellikle tasarımımı lazzoniye benzetmeye çalıştım.
+bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzoni.com](https://lazzoni.com/) sitesinden veri çektim.Özellikle tasarımımı lazzoniye benzetmeye çalıştım.  
+
+https://raw.githubusercontent.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/1.jpg
+
+
 
 ## Kurulum
 Öncelikle .Net sdk indirmemiz gerekiyor ben bu projede 7.0 sürümünü kullandım dolayısıyla .Net 7.0 sürümünü indirmeliyiz [buradan](https://dotnet.microsoft.com/en-us/download/dotnet) indirebilirsiniz.
@@ -47,7 +51,12 @@ Eğer yukarıdaki komut yazılınca tarayıcınızda açılmıyorsa
 Terminal ekranında ki  locallhost linkine tıklayarak sayfayı açabilirsiniz.  
 Durdurmak için "Cntrl-C" kısayolunu kullanarak terminali durdurabilir "Cntrl+R" ile reset atabilirsiniz.
 
+## Docker
+Eğer Docker Desktop uygulamanız yoksa [buradan](https://www.docker.com/products/docker-desktop/) işletim sisteminize göre indirebilirsiniz.
+Herhangi bir üyeliğiniz bulunmuyorsa [buradan](https://hub.docker.com/signup) üyelik işlemlerinizi gerçekleştirebilirsiniz.
+Yükleme ve kaydolma işlemlerini tamamladıktan sonra Docker Desktop adlı uygulamayı açıyoruzç.
+Terminale aşşağıdaki komutu yazıyoruz.
 
-
-
-
+```bash
+docker login
+```
