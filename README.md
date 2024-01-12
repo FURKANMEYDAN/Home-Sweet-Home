@@ -3,11 +3,13 @@
 Home Sweet Home mobilya satışı yapan ve konsept oda tasarlayan hayali bir firma,(Techcareer.net Fullstack Web Developer Bootcamp kapsamında tasarlamış olduğum bir proje)
 bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzoni.com](https://lazzoni.com/) sitesinden veri çektim.Özellikle tasarımımı lazzoniye benzetmeye çalıştım.  
 
-https://raw.githubusercontent.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home1.png  
 
-https://raw.githubusercontent.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home2.png  
+![1](https://github.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home1.png?raw=true)
+![2](https://github.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home2.png?raw=true)
+![3](https://github.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home3.png?raw=true)
 
-https://raw.githubusercontent.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home3.png
+
+
 
 
 
