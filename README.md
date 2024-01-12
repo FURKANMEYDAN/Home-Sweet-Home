@@ -3,7 +3,11 @@
 Home Sweet Home mobilya satışı yapan ve konsept oda tasarlayan hayali bir firma,(Techcareer.net Fullstack Web Developer Bootcamp kapsamında tasarlamış olduğum bir proje)
 bende bu firma'nın websitesini tasarladım.Tasarımda görsel kısımda [lazzoni.com](https://lazzoni.com/) sitesinden veri çektim.Özellikle tasarımımı lazzoniye benzetmeye çalıştım.  
 
-https://raw.githubusercontent.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/1.jpg
+https://raw.githubusercontent.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home1.png  
+
+https://raw.githubusercontent.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home2.png  
+
+https://raw.githubusercontent.com/FURKANMEYDAN/Techcarreernet/main/wwwroot/img/web-home3.png
 
 
 
@@ -53,10 +57,19 @@ Durdurmak için "Cntrl-C" kısayolunu kullanarak terminali durdurabilir "Cntrl+R
 
 ## Docker
 Eğer Docker Desktop uygulamanız yoksa [buradan](https://www.docker.com/products/docker-desktop/) işletim sisteminize göre indirebilirsiniz.
-Herhangi bir üyeliğiniz bulunmuyorsa [buradan](https://hub.docker.com/signup) üyelik işlemlerinizi gerçekleştirebilirsiniz.
-Yükleme ve kaydolma işlemlerini tamamladıktan sonra Docker Desktop adlı uygulamayı açıyoruzç.
-Terminale aşşağıdaki komutu yazıyoruz.
+Herhangi bir üyeliğiniz bulunmuyorsa [buradan](https://hub.docker.com/signup) üyelik işlemlerinizi gerçekleştirebilirsiniz.  
+
+Yükleme ve kaydolma işlemlerini tamamladıktan sonra Docker Desktop adlı uygulamayı açıyoruz.  
+
+Terminale aşşağıdaki komutları sırasıyla  yazıyoruz.
 
 ```bash
 docker login
 ```
+```bash
+docker pull bfmeydan/homesweethome
+```
+```bash
+docker run -p 8080:80 bfmeydan/homesweethome
+```
+**Not:** Uygulamayı görmek için tarayıcınızda "http://localhost:8080/" adresinin girili olması gerekir.
